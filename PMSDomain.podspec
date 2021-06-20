@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/PMS-Frameworks/PMSDomain'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'CUSTOM' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'goeun1001' => 'gogo8272@gmail.com' }
   s.source           = { :git => 'https://github.com/PMS-Frameworks/PMSDomain.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  # s.framzeworks = 'UIKit', 'MapKit'
   s.dependency 'PMSRxModule', '~> 1.0.0'
   s.dependency 'Moya', '~> 14.0'
 end
