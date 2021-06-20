@@ -1,0 +1,6 @@
+framework module PMSDomain {
+  umbrella header "PMSDomain-umbrella.h"
+
+  export *
+  module * { export * }
+}
