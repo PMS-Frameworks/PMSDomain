@@ -37,7 +37,7 @@ func print(_ object: Any) {
     #endif
 }
 
-class Log {
+public class Log {
     
     static var dateFormat = "yyyy-MM-dd hh:mm:ssSSS"
     static var dateFormatter: DateFormatter {
@@ -152,8 +152,8 @@ class Log {
     }
 }
 
-internal extension Date {
-    func toString() -> String {
+public extension Date {
+    public func toString() -> String {
         return Log.dateFormatter.string(from: self as Date)
     }
 }
