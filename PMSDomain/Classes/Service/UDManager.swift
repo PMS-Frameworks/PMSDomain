@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UDManager {
+public class UDManager {
     static let shared = UDManager()
     
     let UD = UserDefaults.standard
