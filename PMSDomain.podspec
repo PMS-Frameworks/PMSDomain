@@ -39,4 +39,5 @@ Pod::Spec.new do |s|
   # s.framzeworks = 'UIKit', 'MapKit'
   s.dependency 'PMSRxModule', '~> 1.0.0'
   s.dependency 'Moya', '~> 14.0'
+  s.dependency 'PMSAnalytics', '~> 1.0.0'
 end

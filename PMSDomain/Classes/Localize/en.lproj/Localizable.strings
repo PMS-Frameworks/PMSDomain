@@ -1,0 +1,154 @@
+/* 
+  Localizable.strings
+  PMS-iOS-V2
+
+  Created by GoEun Jeong on 2021/05/19.
+  
+*/
+
+// MARK: - LocalizedString
+
+"CFBundleDisplayName" = "PMS";
+
+// Basic Error
+"unauthorizedErrorMsg" = "The login information does not match.";
+"notFoundErrorMsg" = "Can't find student";
+"unknownErrorMsg" = "Unknown error";
+"noInternetErrorMsg" = "Not conneted to Internet";
+"serverErrorMsg" = "Server Error";
+
+// Ttitle
+"PMSTitle" = "PMS";
+"loginTitle" = "Sign in";
+"registerTitle" = "Sign up";
+"calendarTitle" = "Calendar";
+"mealTitle" = "Meal";
+"noticeTitle" = "Notice";
+"introduceTitle" = "Introduce";
+"introduceSubtitle" = "Introduce DSM's boast";
+"mypageTitle" = "Nickname";
+
+// Common
+"cancel" = "Cancel";
+"confirm" = "Confirm";
+
+// Tab bar
+"calendar" = "Calendar";
+"meal" = "Meal";
+"notice" = "Notice";
+"introduce" = "Introduce";
+"mypage" = "Mypage";
+
+// Placeholder
+"nicknamePlaceholder" = "Enter Nickname.";
+"newNicknamePlaceholder" = "Enter New Nickname.";
+"emailPlaceholder" = "Enter Email.";
+"passwordPlaceholder" = "Enter Password.";
+"rePasswordPlaceholder" = "Enter Password Again.";
+"currentPasswordPlaceholder" = "Enter Current Password.";
+"newPasswordPlaceholder" = "Enter Password to be Changed.";
+"reNewPasswordPlaceholder" = "Check Password to be Changed.";
+"commentPlaceholder" = "Enter Comment.";
+"calendarPlaceholder" = "Click on the date to see the schedule.";
+"noEventPlaceholder" = "There is no schedule.";
+"searchNoticePlaceholder" = "Enter Notice title.";
+"searchLetterPlaceholder" = "Enter Letter title.";
+"noStudentPlaceholder" = "Add Student";
+"noAuthPlaceholder" = "Login is required.";
+"noMealPlaceholder" = "There is no meal.";
+"noMealPicturePlaceholder" = "There is no meal's picture.";
+"noOutingPlaceholder" = "There are no outings.";
+"noPointListPlaceholder" = "There are no point list.";
+"noNoticeListPlaceholder" = "There are. no notices.";
+
+// Auth
+"loginButton" = "Sign in";
+"registerButton" = "Sign up";
+"noLoginButton" = "Start without Login >";
+"notFoundUserErrorMsg" = "Email or password\ndoes not match.";
+"existUserErrorMsg" = "Duplicate email!\nPlease try again with another email.";
+"notMatchPasswordErrorMsg" = "Passwords don't match.";
+"loginSuccessMsg" = "Sign in was successful.";
+"registerSuccessMsg" = "Sign up was successful.";
+"changePasswordSuccessMsg" = "Success to change password.";
+
+// Calendar
+"calendarHeaderDateFormat" = "MMMM yyyy";
+"dateFormat" = "MMMM d, yyyy";
+
+// Meal
+"breakfast" = "Breakfast";
+"lunch" = "Lunch";
+"dinner" = "Dinner";
+
+// Notice
+"letter" = "Letter";
+"preview" = "Preview";
+
+// Introduce
+"clubTitle" = "Introduce Club";
+"clubSubtitle" = "Intrudce DSM's clubs";
+"clubMember" = "Club Members";
+"companyTitle" = "Introduce Employment";
+"companySubtitle" = "Introduce DSM's employments";
+"companySite" = "Go to company site";
+"companyAddress" = "Company address";
+"developerTitle" = "Introduce Developer";
+"developerSubtitle" = "Introduce PMS's developers";
+"childClub" = "Children's club";
+
+// Mypage
+"plusScore" = "bonus point";
+"minusScore" = "minus point";
+"toAddStudent" = "Add Student";
+"weekStatus" = "Staying this week";
+"weekendMealStatus" = "Weekend meals";
+"toOutingList" = "Go to Outing list";
+"toChangePassword" = "Change Password";
+"toLogout" = "Logout";
+"logoutConfirmMsg" = "Do you want to log out?";
+"enterStudentCodeMsg" = "Please enter your child verification code";
+"addStudentButton" = "Add Student";
+"deleteStudentMsg" = "Delete it from the list?";
+"pointListTitle" = "List of bonus/minus";
+"outingListTitle" = "List of Outing";
+"outinfReason" = "Reason";
+"outinfPlace" = "Place";
+
+// Mypage - changePassword
+"changePasswordTitle" = "Change Password";
+"currentPassword" = "Current Password";
+"newPassword" = "New Password";
+"reNewPassword" = "Confirm Password";
+"changePasswordConfirmMsg" = "Change your password?";
+"notMatchCurrentPasswordErrorMsg" = "Current passwords do not match.";
+"notMatchStudentErrorMsg" = "There is no student with the code.";
+
+// MARK: - Accessibility
+
+// Navigation Title
+"PMSView" = "PMS Main Screen";
+"LoginView" = "Sign in Screen";
+"RegisterView" = "Sign up Screen";
+
+// Login
+"facebookLogin" = "Sign in with facebook";
+"naverLogin" = "Sign in with naver";
+"kakaotalkLogin" = "Sign in with kakaotalk";
+"appleLogin" = "Sign in with apple";
+
+// Register
+"facebookRegister" = "Sign up with facebook";
+"naverRegister" = "Sign up with naver";
+"kakaotalkRegister" = "Signup with kakaotalk";
+"appleRegister" = "Sign up with apple";
+
+// Button
+"showPasswordButton" = "Show password";
+"leftArrowButton" = "Go to the previous month";
+"rightArrowButton" = "Go to the next month";
+"previousPageButton" = "Go to previous page";
+"nextPageButton" = "Go to next page";
+"toOutingListButton" = "Go to Outing list button";
+"toChangePasswordButton" = "Go to Change Password Button";
+"toLogoutButton" = "Go to Logout";

@@ -8,10 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		21DA9990C587EAC64F9684A6494076B5 /* PMSDomain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE5F863D43B32832EFA1CB7CB5C3723 /* PMSDomain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C715B628CAD7ED12E41971C52F248BA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD77B1F676185837422B7FB14193705 /* ReplaceMe.swift */; };
 		6B0B86BF18E983EBB1591CD5AD81E6B3 /* Pods-PMSDomain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46CF8CC14B01D8639D845214BCBE17FC /* Pods-PMSDomain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C96F96D9F8C47EA286C4CCE83A87F7FF /* PMSDomain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D9310255B7920FED2505FB4457EA2 /* PMSDomain-dummy.m */; };
 		D89E397D6D8669DABAB8A7B10DED015B /* Pods-PMSDomain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E224B10248E582200FE2A30420AE79DD /* Pods-PMSDomain_Tests-dummy.m */; };
+		D98B7CAA267ED5EE00B9F864 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C81267ED5EE00B9F864 /* Logger.swift */; };
+		D98B7CAB267ED5EE00B9F864 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C82267ED5EE00B9F864 /* AnalyticsManager.swift */; };
+		D98B7CAC267ED5EE00B9F864 /* NoticeRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C85267ED5EE00B9F864 /* NoticeRepository.swift */; };
+		D98B7CAD267ED5EE00B9F864 /* CalendarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C86267ED5EE00B9F864 /* CalendarRepository.swift */; };
+		D98B7CAE267ED5EE00B9F864 /* IntroduceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C87267ED5EE00B9F864 /* IntroduceRepository.swift */; };
+		D98B7CAF267ED5EE00B9F864 /* MypageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C88267ED5EE00B9F864 /* MypageRepository.swift */; };
+		D98B7CB0267ED5EE00B9F864 /* MealRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C89267ED5EE00B9F864 /* MealRepository.swift */; };
+		D98B7CB1267ED5EE00B9F864 /* RegisterRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C8B267ED5EE00B9F864 /* RegisterRepository.swift */; };
+		D98B7CB2267ED5EE00B9F864 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C8C267ED5EE00B9F864 /* LoginRepository.swift */; };
+		D98B7CB3267ED5EE00B9F864 /* PointListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C8E267ED5EE00B9F864 /* PointListRepository.swift */; };
+		D98B7CB4267ED5EE00B9F864 /* ChangePasswordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C8F267ED5EE00B9F864 /* ChangePasswordRepository.swift */; };
+		D98B7CB5267ED5EE00B9F864 /* OutingListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C90267ED5EE00B9F864 /* OutingListRepository.swift */; };
+		D98B7CB6267ED5EE00B9F864 /* PMSCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C93267ED5EE00B9F864 /* PMSCalendar.swift */; };
+		D98B7CB7267ED5EE00B9F864 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C95267ED5EE00B9F864 /* AccessToken.swift */; };
+		D98B7CB8267ED5EE00B9F864 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C96267ED5EE00B9F864 /* Auth.swift */; };
+		D98B7CB9267ED5EE00B9F864 /* Club.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C98267ED5EE00B9F864 /* Club.swift */; };
+		D98B7CBA267ED5EE00B9F864 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C99267ED5EE00B9F864 /* Developer.swift */; };
+		D98B7CBB267ED5EE00B9F864 /* Mention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C9B267ED5EE00B9F864 /* Mention.swift */; };
+		D98B7CBC267ED5EE00B9F864 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C9C267ED5EE00B9F864 /* Comment.swift */; };
+		D98B7CBD267ED5EE00B9F864 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C9D267ED5EE00B9F864 /* Notice.swift */; };
+		D98B7CBE267ED5EE00B9F864 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7C9F267ED5EE00B9F864 /* User.swift */; };
+		D98B7CBF267ED5EE00B9F864 /* PointList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7CA0267ED5EE00B9F864 /* PointList.swift */; };
+		D98B7CC0267ED5EE00B9F864 /* OutingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7CA1267ED5EE00B9F864 /* OutingList.swift */; };
+		D98B7CC1267ED5EE00B9F864 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7CA2267ED5EE00B9F864 /* Student.swift */; };
+		D98B7CC2267ED5EE00B9F864 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7CA4267ED5EE00B9F864 /* Meal.swift */; };
+		D98B7CC3267ED5EE00B9F864 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7CA6267ED5EE00B9F864 /* NetworkError.swift */; };
+		D98B7CC4267ED5EE00B9F864 /* AuthAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7CA8267ED5EE00B9F864 /* AuthAPI.swift */; };
+		D98B7CC5267ED5EE00B9F864 /* PMSAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98B7CA9267ED5EE00B9F864 /* PMSAPI.swift */; };
 		F16BB3F92B6C2AD7F6C051938C8B0E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FD58E5FC1578A3AB3B58F3BC09AD79E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -27,9 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AD77B1F676185837422B7FB14193705 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PMSDomain/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		28D774727ACA67FFDF07EA00D606E4D0 /* Pods-PMSDomain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PMSDomain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		465579A7F47F67438C372051CB27C9DF /* Pods_PMSDomain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PMSDomain_Tests.framework; path = "Pods-PMSDomain_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		465579A7F47F67438C372051CB27C9DF /* Pods_PMSDomain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PMSDomain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46CF8CC14B01D8639D845214BCBE17FC /* Pods-PMSDomain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PMSDomain_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4AE55FC8F8033A77DFC9FB7BB9D33B62 /* PMSDomain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PMSDomain-Info.plist"; sourceTree = "<group>"; };
 		6998CE796B7380FA4AE4CAB324AD00F7 /* Pods-PMSDomain_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PMSDomain_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -38,16 +64,44 @@
 		7BD259229EBD17C212BE181AB734E33C /* PMSDomain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMSDomain.release.xcconfig; sourceTree = "<group>"; };
 		8C234ADD66500299D4A0F89994C00333 /* PMSDomain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMSDomain.debug.xcconfig; sourceTree = "<group>"; };
 		9D5D9310255B7920FED2505FB4457EA2 /* PMSDomain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PMSDomain-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DBBAD99DFC290ADE2324B6BD2FEEF6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBBAD99DFC290ADE2324B6BD2FEEF6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A2E2CAFDEEFD75DE48D5D9B6190C87CD /* Pods-PMSDomain_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PMSDomain_Tests-Info.plist"; sourceTree = "<group>"; };
 		AF65FF4FCC0596BDF852A1F692DBC950 /* Pods-PMSDomain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PMSDomain_Tests.modulemap"; sourceTree = "<group>"; };
-		BA5E554764D9378BDA2DD120CCC6B821 /* PMSDomain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PMSDomain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA5E554764D9378BDA2DD120CCC6B821 /* PMSDomain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PMSDomain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBE5F863D43B32832EFA1CB7CB5C3723 /* PMSDomain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMSDomain-umbrella.h"; sourceTree = "<group>"; };
 		BD63EEFAC1998491EB60924CCEAB54E0 /* PMSDomain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PMSDomain.modulemap; sourceTree = "<group>"; };
-		BEF662AA6CB34B04B68BA9CB2B2F6FFA /* PMSDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PMSDomain.framework; path = PMSDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF662AA6CB34B04B68BA9CB2B2F6FFA /* PMSDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMSDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98B7C81267ED5EE00B9F864 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		D98B7C82267ED5EE00B9F864 /* AnalyticsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		D98B7C85267ED5EE00B9F864 /* NoticeRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeRepository.swift; sourceTree = "<group>"; };
+		D98B7C86267ED5EE00B9F864 /* CalendarRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarRepository.swift; sourceTree = "<group>"; };
+		D98B7C87267ED5EE00B9F864 /* IntroduceRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroduceRepository.swift; sourceTree = "<group>"; };
+		D98B7C88267ED5EE00B9F864 /* MypageRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MypageRepository.swift; sourceTree = "<group>"; };
+		D98B7C89267ED5EE00B9F864 /* MealRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealRepository.swift; sourceTree = "<group>"; };
+		D98B7C8B267ED5EE00B9F864 /* RegisterRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRepository.swift; sourceTree = "<group>"; };
+		D98B7C8C267ED5EE00B9F864 /* LoginRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRepository.swift; sourceTree = "<group>"; };
+		D98B7C8E267ED5EE00B9F864 /* PointListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointListRepository.swift; sourceTree = "<group>"; };
+		D98B7C8F267ED5EE00B9F864 /* ChangePasswordRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordRepository.swift; sourceTree = "<group>"; };
+		D98B7C90267ED5EE00B9F864 /* OutingListRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutingListRepository.swift; sourceTree = "<group>"; };
+		D98B7C93267ED5EE00B9F864 /* PMSCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMSCalendar.swift; sourceTree = "<group>"; };
+		D98B7C95267ED5EE00B9F864 /* AccessToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		D98B7C96267ED5EE00B9F864 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		D98B7C98267ED5EE00B9F864 /* Club.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Club.swift; sourceTree = "<group>"; };
+		D98B7C99267ED5EE00B9F864 /* Developer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
+		D98B7C9B267ED5EE00B9F864 /* Mention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mention.swift; sourceTree = "<group>"; };
+		D98B7C9C267ED5EE00B9F864 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		D98B7C9D267ED5EE00B9F864 /* Notice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		D98B7C9F267ED5EE00B9F864 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D98B7CA0267ED5EE00B9F864 /* PointList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointList.swift; sourceTree = "<group>"; };
+		D98B7CA1267ED5EE00B9F864 /* OutingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutingList.swift; sourceTree = "<group>"; };
+		D98B7CA2267ED5EE00B9F864 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		D98B7CA4267ED5EE00B9F864 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		D98B7CA6267ED5EE00B9F864 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		D98B7CA8267ED5EE00B9F864 /* AuthAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthAPI.swift; sourceTree = "<group>"; };
+		D98B7CA9267ED5EE00B9F864 /* PMSAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PMSAPI.swift; sourceTree = "<group>"; };
 		DAE1F3F65294230F5309C704F609A038 /* PMSDomain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PMSDomain-prefix.pch"; sourceTree = "<group>"; };
-		DC56F8752388B9762A18E0BFD91BB6EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DC56F8752388B9762A18E0BFD91BB6EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E224B10248E582200FE2A30420AE79DD /* Pods-PMSDomain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PMSDomain_Tests-dummy.m"; sourceTree = "<group>"; };
 		F327B112519A08DFB7C6D60636F7703D /* Pods-PMSDomain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PMSDomain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3DDAE699F8E659D9B960C07C38F4854 /* Pods-PMSDomain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PMSDomain_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,7 +172,10 @@
 		938E00A3B824C1B08807D168833063F7 /* PMSDomain */ = {
 			isa = PBXGroup;
 			children = (
-				1AD77B1F676185837422B7FB14193705 /* ReplaceMe.swift */,
+				D98B7C91267ED5EE00B9F864 /* Entity */,
+				D98B7C80267ED5EE00B9F864 /* Manager */,
+				D98B7CA7267ED5EE00B9F864 /* NetworkingInfra */,
+				D98B7C83267ED5EE00B9F864 /* RepoInterface */,
 				6710E7A9C5662C926D19ADE39059FEAE /* Pod */,
 				92F9B28FE0B88358837E6BAE2CE63170 /* Support Files */,
 			);
@@ -176,6 +233,146 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98B7C80267ED5EE00B9F864 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C81267ED5EE00B9F864 /* Logger.swift */,
+				D98B7C82267ED5EE00B9F864 /* AnalyticsManager.swift */,
+			);
+			name = Manager;
+			path = PMSDomain/Classes/Manager;
+			sourceTree = "<group>";
+		};
+		D98B7C83267ED5EE00B9F864 /* RepoInterface */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C84267ED5EE00B9F864 /* Tabbar */,
+				D98B7C8A267ED5EE00B9F864 /* PMS */,
+				D98B7C8D267ED5EE00B9F864 /* Mypage */,
+			);
+			name = RepoInterface;
+			path = PMSDomain/Classes/RepoInterface;
+			sourceTree = "<group>";
+		};
+		D98B7C84267ED5EE00B9F864 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C85267ED5EE00B9F864 /* NoticeRepository.swift */,
+				D98B7C86267ED5EE00B9F864 /* CalendarRepository.swift */,
+				D98B7C87267ED5EE00B9F864 /* IntroduceRepository.swift */,
+				D98B7C88267ED5EE00B9F864 /* MypageRepository.swift */,
+				D98B7C89267ED5EE00B9F864 /* MealRepository.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		D98B7C8A267ED5EE00B9F864 /* PMS */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C8B267ED5EE00B9F864 /* RegisterRepository.swift */,
+				D98B7C8C267ED5EE00B9F864 /* LoginRepository.swift */,
+			);
+			path = PMS;
+			sourceTree = "<group>";
+		};
+		D98B7C8D267ED5EE00B9F864 /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C8E267ED5EE00B9F864 /* PointListRepository.swift */,
+				D98B7C8F267ED5EE00B9F864 /* ChangePasswordRepository.swift */,
+				D98B7C90267ED5EE00B9F864 /* OutingListRepository.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		D98B7C91267ED5EE00B9F864 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C92267ED5EE00B9F864 /* Calendar */,
+				D98B7C94267ED5EE00B9F864 /* Auth */,
+				D98B7C97267ED5EE00B9F864 /* Introduce */,
+				D98B7C9A267ED5EE00B9F864 /* Notice */,
+				D98B7C9E267ED5EE00B9F864 /* Mypage */,
+				D98B7CA3267ED5EE00B9F864 /* Meal */,
+				D98B7CA5267ED5EE00B9F864 /* Error */,
+			);
+			name = Entity;
+			path = PMSDomain/Classes/Entity;
+			sourceTree = "<group>";
+		};
+		D98B7C92267ED5EE00B9F864 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C93267ED5EE00B9F864 /* PMSCalendar.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		D98B7C94267ED5EE00B9F864 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C95267ED5EE00B9F864 /* AccessToken.swift */,
+				D98B7C96267ED5EE00B9F864 /* Auth.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D98B7C97267ED5EE00B9F864 /* Introduce */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C98267ED5EE00B9F864 /* Club.swift */,
+				D98B7C99267ED5EE00B9F864 /* Developer.swift */,
+			);
+			path = Introduce;
+			sourceTree = "<group>";
+		};
+		D98B7C9A267ED5EE00B9F864 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C9B267ED5EE00B9F864 /* Mention.swift */,
+				D98B7C9C267ED5EE00B9F864 /* Comment.swift */,
+				D98B7C9D267ED5EE00B9F864 /* Notice.swift */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		D98B7C9E267ED5EE00B9F864 /* Mypage */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7C9F267ED5EE00B9F864 /* User.swift */,
+				D98B7CA0267ED5EE00B9F864 /* PointList.swift */,
+				D98B7CA1267ED5EE00B9F864 /* OutingList.swift */,
+				D98B7CA2267ED5EE00B9F864 /* Student.swift */,
+			);
+			path = Mypage;
+			sourceTree = "<group>";
+		};
+		D98B7CA3267ED5EE00B9F864 /* Meal */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7CA4267ED5EE00B9F864 /* Meal.swift */,
+			);
+			path = Meal;
+			sourceTree = "<group>";
+		};
+		D98B7CA5267ED5EE00B9F864 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7CA6267ED5EE00B9F864 /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		D98B7CA7267ED5EE00B9F864 /* NetworkingInfra */ = {
+			isa = PBXGroup;
+			children = (
+				D98B7CA8267ED5EE00B9F864 /* AuthAPI.swift */,
+				D98B7CA9267ED5EE00B9F864 /* PMSAPI.swift */,
+			);
+			name = NetworkingInfra;
+			path = PMSDomain/Classes/NetworkingInfra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +484,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D98B7CBA267ED5EE00B9F864 /* Developer.swift in Sources */,
+				D98B7CAD267ED5EE00B9F864 /* CalendarRepository.swift in Sources */,
+				D98B7CC2267ED5EE00B9F864 /* Meal.swift in Sources */,
+				D98B7CAE267ED5EE00B9F864 /* IntroduceRepository.swift in Sources */,
+				D98B7CBD267ED5EE00B9F864 /* Notice.swift in Sources */,
+				D98B7CB5267ED5EE00B9F864 /* OutingListRepository.swift in Sources */,
+				D98B7CC3267ED5EE00B9F864 /* NetworkError.swift in Sources */,
+				D98B7CAB267ED5EE00B9F864 /* AnalyticsManager.swift in Sources */,
+				D98B7CB3267ED5EE00B9F864 /* PointListRepository.swift in Sources */,
+				D98B7CBF267ED5EE00B9F864 /* PointList.swift in Sources */,
+				D98B7CAF267ED5EE00B9F864 /* MypageRepository.swift in Sources */,
 				C96F96D9F8C47EA286C4CCE83A87F7FF /* PMSDomain-dummy.m in Sources */,
-				3C715B628CAD7ED12E41971C52F248BA /* ReplaceMe.swift in Sources */,
+				D98B7CB8267ED5EE00B9F864 /* Auth.swift in Sources */,
+				D98B7CBE267ED5EE00B9F864 /* User.swift in Sources */,
+				D98B7CB4267ED5EE00B9F864 /* ChangePasswordRepository.swift in Sources */,
+				D98B7CB2267ED5EE00B9F864 /* LoginRepository.swift in Sources */,
+				D98B7CBB267ED5EE00B9F864 /* Mention.swift in Sources */,
+				D98B7CAA267ED5EE00B9F864 /* Logger.swift in Sources */,
+				D98B7CB1267ED5EE00B9F864 /* RegisterRepository.swift in Sources */,
+				D98B7CB0267ED5EE00B9F864 /* MealRepository.swift in Sources */,
+				D98B7CC4267ED5EE00B9F864 /* AuthAPI.swift in Sources */,
+				D98B7CC5267ED5EE00B9F864 /* PMSAPI.swift in Sources */,
+				D98B7CBC267ED5EE00B9F864 /* Comment.swift in Sources */,
+				D98B7CB6267ED5EE00B9F864 /* PMSCalendar.swift in Sources */,
+				D98B7CB9267ED5EE00B9F864 /* Club.swift in Sources */,
+				D98B7CC0267ED5EE00B9F864 /* OutingList.swift in Sources */,
+				D98B7CAC267ED5EE00B9F864 /* NoticeRepository.swift in Sources */,
+				D98B7CC1267ED5EE00B9F864 /* Student.swift in Sources */,
+				D98B7CB7267ED5EE00B9F864 /* AccessToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,8 +623,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
