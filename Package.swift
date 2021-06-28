@@ -14,8 +14,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Moya/Moya", from: "14.0.0"),
-        .package(url: "https://github.com/PMS-Frameworks/PMSRxModule", .branch("master")),
-        .package(url: "https://github.com/PMS-Frameworks/PMSAnalytics", .branch("master")),
+        .package(url: "https://github.com/PMS-Frameworks/PMSRxModule", from: "1.0.0"),
+        .package(url: "https://github.com/PMS-Frameworks/PMSAnalytics",  from: "1.0.0"),
     ],
     targets: [
         .target(

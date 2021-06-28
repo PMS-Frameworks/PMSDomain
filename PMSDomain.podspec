@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
   s.author           = { 'goeun1001' => 'gogo8272@gmail.com' }
   s.source           = { :git => 'https://github.com/PMS-Frameworks/PMSDomain.git', :tag => s.version.to_s }
   s.resource_bundle = { "Localization" => ["PMSDomain/Classes/Localize/*/**"] }
-  # s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
-  s.xcconfig = { "OTHER_LINKER_FLAGS" => '$(inherited) -ObjC'}
+  # s.xcconfig = { 'OTHER_LDFLAGS' => '$(inherited) -ObjC' }
+  # s.xcconfig = { "OTHER_LINKER_FLAGS" => '$(inherited) -ObjC'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
@@ -43,4 +43,6 @@ Pod::Spec.new do |s|
   s.dependency 'PMSRxModule', '~> 1.0.0'
   s.dependency 'Moya', '~> 14.0'
   s.dependency 'PMSAnalytics', '~> 1.0.0'
+  # s.ios.vendored_frameworks = 'FirebaseAnalytics.framework, GoogleAppMeasurement.framework'
+  # s.frameworks = 'FirebaseAnalytics', 'GoogleAppMeasurement'
 end
