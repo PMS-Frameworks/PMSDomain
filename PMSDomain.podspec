@@ -25,14 +25,17 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'goeun1001' => 'gogo8272@gmail.com' }
   s.source           = { :git => 'https://github.com/PMS-Frameworks/PMSDomain.git', :tag => s.version.to_s }
+  s.resource_bundle = { "Localization" => ["PMSDomain/Classes/Localize/*/**"] }
+  # s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  s.xcconfig = { "OTHER_LINKER_FLAGS" => '$(inherited) -ObjC'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'PMSDomain/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PMSDomain' => ['PMSDomain/Assets/*.png']
+  # s.resource_bundle = {
+  #   'PMSDomain' => ['PMSDomain/Assets/*']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

@@ -152,8 +152,8 @@ public class Log {
     }
 }
 
-public extension Date {
-    public func toString() -> String {
+extension Date {
+    func toString() -> String {
         return Log.dateFormatter.string(from: self as Date)
     }
 }

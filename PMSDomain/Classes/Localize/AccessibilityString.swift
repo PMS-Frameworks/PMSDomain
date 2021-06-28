@@ -61,6 +61,8 @@ public enum AccessibilityString: String, Equatable, Hashable {
 
 extension AccessibilityString {
     var localized: String {
-        return NSLocalizedString(self.rawValue, comment: "")
+        let path = Bundle().path(forResource: "Localization", ofType: "bundle")!
+        let bundle = Bundle(path: path)!
+        return NSLocalizedString(self.rawValue, bundle: bundle, comment: "")
     }
 }
