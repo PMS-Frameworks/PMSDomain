@@ -15,7 +15,6 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/Moya/Moya", from: "14.0.0"),
         .package(url: "https://github.com/PMS-Frameworks/PMSRxModule", from: "1.0.0"),
-        .package(url: "https://github.com/PMS-Frameworks/PMSAnalytics",  from: "1.0.0"),
     ],
     targets: [
         .target(
@@ -23,7 +22,6 @@ let package = Package(
             dependencies: [
                 .product(name: "Moya", package: "Moya", condition: .when(platforms: [.iOS])),
                 "PMSRxModule",
-                "PMSAnalytics"
             ],
             path: "PMSDomain/Classes")
     ]

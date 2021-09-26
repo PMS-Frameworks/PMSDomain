@@ -34,15 +34,14 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PMSDomain/Classes/**/*'
   
-  # s.resource_bundle = {
-  #   'PMSDomain' => ['PMSDomain/Assets/*']
-  # }
+  s.resource_bundle = {
+    'PMSDomain' => ['PMSDomain/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.framzeworks = 'UIKit', 'MapKit'
   s.dependency 'PMSRxModule', '~> 1.0.0'
   s.dependency 'Moya', '~> 14.0'
-  s.dependency 'PMSAnalytics', '~> 1.0.0'
   # s.ios.vendored_frameworks = 'FirebaseAnalytics.framework, GoogleAppMeasurement.framework'
   # s.frameworks = 'FirebaseAnalytics', 'GoogleAppMeasurement'
 end
