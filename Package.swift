@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "PMSDomain",
     defaultLocalization: "ko",
-    platforms: [.iOS(.v11), .macOS(.v10_12)],
+    platforms: [.iOS(.v11)],
     products: [
         .library(
             name: "PMSDomain",

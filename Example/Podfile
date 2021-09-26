@@ -1,6 +1,0 @@
-use_frameworks!
-target 'PMSDomain_Tests' do
-  pod 'PMSDomain', :path => '../'
-  
-  
-end
